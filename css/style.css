@@ -76,8 +76,21 @@
     justify-content: center;
     font-weight: normal;
 }
+.resume{
 
 
+border: none;
+
+background-color: white;
+}
+
+#nav-menu{}
+.nav-link home{}
+.nav-link about{}
+.nav-link skills{}
+.nav-link projects{}
+.nav-link contact{}
+.nav-link resume{}
 /*** Navbar ***/
 .navbar.fixed-top {
     display: none;
