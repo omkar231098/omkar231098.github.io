@@ -93,6 +93,13 @@ background-color: white;
 .nav-link resume{}
 #user-detail-name{}
 #user-detail-intro{}
+#about{};
+.about{}
+.section{}
+
+
+
+
 /*** Navbar ***/
 .navbar.fixed-top {
     /* display: none; */
