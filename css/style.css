@@ -91,9 +91,10 @@ background-color: white;
 .nav-link projects{}
 .nav-link contact{}
 .nav-link resume{}
+#skills{}
 /*** Navbar ***/
 .navbar.fixed-top {
-    display: none;
+    /* display: none; */
     transition: .5s;
 }
 
