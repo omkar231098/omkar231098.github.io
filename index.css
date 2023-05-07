@@ -327,25 +327,34 @@ header.sticky{
 }
 
 #stat {
-    margin-top: 50px;
+    margin-top: 90px;
     display: flex;
     justify-content: space-between;
     gap:10px;
+ 
   }
+  .react-activity-calendar{
+padding: 8px;
+
+  }
+ 
   #github-top-langs{
     border: 0px solid crimson;
     height: 195px;
     margin-top: -10%;
     
   }
-
+  .react-activity-calenda{
+padding: 10px;
+  }
 /* -----------------------------------------------------project section style--------------------------------------------------------- */
-/* #projects{
-    height: 2000px;
-} */
+#projects{
+  width: 100%;
+  margin: auto;
+}
 #nav-link-projects{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(510px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 2rem;
@@ -363,6 +372,12 @@ header.sticky{
     display: block;
     transition: transform 0.5s;
 }
+#icondiv{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+column-gap: 10px;
+}
 .layer{
     width: 100%;
     height: 0;
@@ -379,6 +394,9 @@ header.sticky{
     text-align: center;
     padding: 0 40px;
     transition: height 0.5s;
+}
+span.contrib-number{
+    color: white;
 }
 .layer h5{
     font-size: 20px;
