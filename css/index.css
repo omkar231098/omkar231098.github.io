@@ -26,7 +26,12 @@
     --z-back: -10;
     --z-fixed: 100;
 }
-
+.project-github-link{
+    font-size: 25px;
+}
+.project-deployed-link{
+    font-size: 25px;
+}
 @media screen and (min-width: 968px) {
     :root {
         --big-font-size: 3.5rem;
@@ -237,7 +242,7 @@ img {
 .home__social-icon {
     width: max-content;
     margin-bottom: var(--mb-2);
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     color: var(--second-color);
 }
 
@@ -328,8 +333,11 @@ img {
     padding: 20px 0px;
     display: flex;
     align-items: center;
+    
 }
-
+#techskills{
+font-size:50px;
+}
 .skills__bar {
     position: absolute;
     left: 0;
